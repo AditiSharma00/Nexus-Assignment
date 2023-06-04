@@ -1,15 +1,28 @@
-.container {
-  border: 1px solid black;
+@media (min-width: 1024px) {
+  .imagetext {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .logotext {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 50px;
+  }
+  .text {
+    width: 60%;
+  }
+  .logo {
+    width: 40%;
+  }
 }
-@media (max-width: 768px) {
-    /* Styles for screens with maximum width of 768px */
- 
+
+@media (max-width: 1024px) {
+  .imagetext {
+    display: flex;
+    flex-direction: column;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for screens with minimum width of 769px and maximum width of 1024px */
+  .logo {
+    display: none;
   }
-  
-  @media (min-width: 1025px) {
-    /* Styles for screens with minimum width of 1025px */
-  }
-  
+}

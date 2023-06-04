@@ -2,11 +2,16 @@
   /* Styles for screens with maximum width of 768px */
   .sidebar-text {
     border: 1px solid white;
-
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 100%;
+    text-align: left;
+    margin: auto;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    width: 80%;
   }
+}
+.sidebar-text {
+  background-color: #252525;
+  color: #fff;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Styles for screens with minimum width of 769px and maximum width of 1024px */

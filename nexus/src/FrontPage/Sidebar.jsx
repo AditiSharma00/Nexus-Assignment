@@ -31,9 +31,8 @@ function Sidebar() {
   return (
     <div>
       <Box bg="#252525">
-        <Button
-          bg="#252525"
-          color="#fffef2"
+        <p
+      
           onClick={handleTextClick}
           font-size=" 1.4rem"
           fontWeight={"thin"}
@@ -45,7 +44,7 @@ function Sidebar() {
         >
           Click and Collect is now available at select stores. Enjoy
           complimentary carbon neutral shipping on all orders. +
-        </Button>
+        </p>
       </Box>
       <Drawer isOpen={isOpen} placement="left" onClose={handleDrawerClose}>
         <DrawerOverlay />

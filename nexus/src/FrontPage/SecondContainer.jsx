@@ -18,7 +18,6 @@ import {
 } from "react-icons/io5";
 import { ReactElement } from "react";
 import "./FirstContainer.css";
-import Logo from "./Logo";
 
 interface FeatureProps {
   text: string;
@@ -26,18 +25,18 @@ interface FeatureProps {
   icon?: ReactElement;
 }
 
-export default function SplitWithImage() {
+export default function SecondConatiner() {
   return (
     <Container
       maxW={"100%"}
       py={12}
-      bg={"rgb(246, 245, 232)"}
+      bg={"#f7faf1"}
       className="container"
       color={"black"}
     >
       <div
         style={{
-          backgroundColor: "rgb(246, 245, 232)",
+          backgroundColor: "#f7faf1",
         }}
         className="imagetext"
       >
@@ -45,23 +44,8 @@ export default function SplitWithImage() {
           <figure>
             <div>
               <picture>
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="https://www.aesop.com/u1nb1km7t5q7/4bBiVangCUB2A9WlEs5NPl/6e88aea30ce982d78727433f059a1c42/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Desktop_XL_2560x1200px.jpg"
-                />
-                <source
-                  media="(min-width: 1025px)"
-                  srcset="https://www.aesop.com/u1nb1km7t5q7/4SUhr7BGma03r1oHxGHgpY/736e8b4997372edbecf26d60044caabf/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Desktop_1440x1500px.jpg"
-                />
+                <source srcset="https://www.aesop.com/u1nb1km7t5q7/1s7e7J0Y8Piw8fEPVeV72e/34ee50838a19fd38c74107f9a0766264/Aesop_A_Guide_To_Facial_Serums_Web_Homepage_Secondary_Mid_Desktop_2560x1440px.jpg" />
 
-                <source
-                  media="(min-width: 640px)"
-                  srcset="https://www.aesop.com/u1nb1km7t5q7/eteg85jRjqdWWK9ntUMfH/4302818074a4706f38bcaf7413846f7b/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Tablet_1536x950px.jpg"
-                />
-                <source
-                  media="(min-width: 0px)"
-                  srcset="https://www.aesop.com/u1nb1km7t5q7/6RGVJ6lzt9hHpnwVvWU96O/bce5b71553c26dd5f3f739e06803ee42/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Mobile_640x640px.jpg"
-                />
                 <img
                   alt="Aesop Parsley Seed Anti-Oxidant Intense Serum bottles lined up next to a concrete wall"
                   loading="eager"
@@ -73,7 +57,6 @@ export default function SplitWithImage() {
         </div>
         <div className="logotext" style={{}}>
           <div
-            className="text"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -83,20 +66,20 @@ export default function SplitWithImage() {
           >
             <header>
               <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                Supporting city skin
+                The Athenaeum
               </h2>
               <br />
               <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                Parsley Seed Anti-Oxidant Intense Serum
+                A guide to facial serums
               </h1>
             </header>
             <br />
             <div>
               <div class="Paragraph-module_set__LZFen Paragraph-module_dark__Qz-sp Paragraph-module_large__-7Gyi HeroBannerContent-module_description__UIt-1">
                 <p style={{ fontWeight: "lighter" }}>
-                  Explore how this anti-oxidant-rich serum hydrates, replenishes
-                  and fortifies the skin via a suite of ingredients selected
-                  with urban dwellers in mind.
+                  A comprehensive guide to Aesop's plentiful offering of facial
+                  serums. Learn about these skin care formulations designed for
+                  different skin types.
                 </p>
               </div>
             </div>
@@ -114,13 +97,6 @@ export default function SplitWithImage() {
                 Discover the formulation{" "}
               </a>
             </div>
-          </div>
-          <div className="logo">
-            <a href="/hk/en/r/parsley-seed-intense-serum/" target="_self">
-              <i aria-hidden="true">
-                <Logo />
-              </i>
-            </a>
           </div>
         </div>
       </div>
