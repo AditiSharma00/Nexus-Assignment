@@ -49,7 +49,7 @@ function Sidebar() {
         isOpen={isOpen}
         placement="left"
         onClose={handleDrawerClose}
-        size="lg"
+        size="xl"
       >
         <DrawerOverlay />
         <DrawerContent bg={"#f7faf1"}>
@@ -62,7 +62,7 @@ function Sidebar() {
             bg={"#f7faf1"}
             fontSize={"sm"}
             className="sl"
-            p={"120px 120px"}
+            p={"150px 150px"}
           >
             <div class="FlyingPanel--content">
               <h2 class="FlyingPanel--title" style={{ fontWeight: "bold" }}>
