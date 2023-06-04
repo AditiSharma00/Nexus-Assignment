@@ -38,7 +38,7 @@ export default function ThirdContainer() {
         style={{
           backgroundColor: "#f7faf1",
         }}
-        className="imagetext"
+        className="img imagetext"
       >
         <div className="logotext" style={{}}>
           <div
@@ -51,20 +51,16 @@ export default function ThirdContainer() {
           >
             <header>
               <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                The Athenaeum
+                Post-Poo Drops has returned
               </h2>
-              <br />
-              <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                A guide to facial serums
-              </h1>
             </header>
             <br />
             <div>
               <div class="Paragraph-module_set__LZFen Paragraph-module_dark__Qz-sp Paragraph-module_large__-7Gyi HeroBannerContent-module_description__UIt-1">
                 <p style={{ fontWeight: "lighter" }}>
-                  A comprehensive guide to Aesop's plentiful offering of facial
-                  serums. Learn about these skin care formulations designed for
-                  different skin types.
+                  Here to make the malodorous melodious once again. Dispense
+                  this favoured formulation into the toilet bowl after flushing
+                  to effectively mask disagreeable odours.
                 </p>
               </div>
             </div>
@@ -72,6 +68,7 @@ export default function ThirdContainer() {
             <br />
             <div>
               <a
+                className="le"
                 href="/hk/en/r/parsley-seed-intense-serum/"
                 target="_self"
                 style={{
@@ -79,7 +76,7 @@ export default function ThirdContainer() {
                   padding: "15px 100px 15px 15px",
                 }}
               >
-                Discover the formulation{" "}
+                Discover Post-Poo Drops{" "}
               </a>
             </div>
           </div>
@@ -99,7 +96,6 @@ export default function ThirdContainer() {
             </div>
           </figure>
         </div>
-        
       </div>
     </Container>
   );

@@ -38,19 +38,22 @@ export default function FourthConatiner() {
         style={{
           backgroundColor: "#f7faf1",
         }}
-        className="imagetext"
+        className="img imagetext"
       >
-       <div>
-  <figure>
-    <div>
-      <video autoPlay loop playsInline>
-        <source src="https://videos.ctfassets.net/u1nb1km7t5q7/3H3gi1VVqEIO5FXiJK9uHE/b9587027398dd4edbe29526e5d3fee67/Aesop_Gift_Kits_2022-23_Web_Homepage_Secondary_Gift_Finder_1920x1080px.mp4" type="video/mp4"/>
-      </video>
-    </div>
-  </figure>
-</div>
+        <div>
+          <figure>
+            <div>
+              <video autoPlay loop>
+                <source
+                  src="https://videos.ctfassets.net/u1nb1km7t5q7/3H3gi1VVqEIO5FXiJK9uHE/b9587027398dd4edbe29526e5d3fee67/Aesop_Gift_Kits_2022-23_Web_Homepage_Secondary_Gift_Finder_1920x1080px.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </figure>
+        </div>
 
-        <div className="logotext" style={{}}>
+        <div className="logotext loe" style={{}}>
           <div
             style={{
               display: "flex",
@@ -61,11 +64,11 @@ export default function FourthConatiner() {
           >
             <header>
               <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                The Athenaeum
+                A helping hand
               </h2>
               <br />
               <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                A guide to facial serums
+                The Gift Finder
               </h1>
             </header>
             <br />
@@ -89,7 +92,7 @@ export default function FourthConatiner() {
                   padding: "15px 100px 15px 15px",
                 }}
               >
-                Discover the formulation{" "}
+                Discover the Gift Finder{" "}
               </a>
             </div>
           </div>

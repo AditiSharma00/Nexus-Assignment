@@ -27,6 +27,10 @@ export default function SliderOne() {
             slidesPerView: 3,
             spaceBetween: 50,
           },
+          360: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
         }}
         scrollbar={true}
         navigation={true}
@@ -51,20 +55,19 @@ export default function SliderOne() {
           >
             <header>
               <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                Supporting city skin
+                Parsley Seed Skin Care
               </h2>
               <br />
               <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                Parsley Seed Anti-Oxidant Intense Serum
+              Fortification of the highest order
+
               </h1>
             </header>
             <br />
             <div>
               <div class="Paragraph-module_set__LZFen Paragraph-module_dark__Qz-sp Paragraph-module_large__-7Gyi HeroBannerContent-module_description__UIt-1">
                 <p style={{ fontWeight: "lighter" }}>
-                  Explore how this anti-oxidant-rich serum hydrates, replenishes
-                  and fortifies the skin via a suite of ingredients selected
-                  with urban dwellers in mind.
+                Our Parsley Seed Skin Care range provides potent doses of anti-oxidant rich ingredients in formulations suited to all skin types. They are especially recommended for those in urban environments, to fortify the skin against the damaging effects of free radicals.
                 </p>
               </div>
             </div>

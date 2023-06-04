@@ -38,9 +38,9 @@ export default function FifthContainer() {
         style={{
           backgroundColor: "#f7faf1",
         }}
-        className="imagetext"
+        className="imagetext img"
       >
-        <div className="logotext" style={{}}>
+        <div className="logotext loe" style={{}}>
           <div
             style={{
               display: "flex",
@@ -51,11 +51,11 @@ export default function FifthContainer() {
           >
             <header>
               <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                The Athenaeum
+              Tokens Of Appreciation
               </h2>
               <br />
               <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                A guide to facial serums
+               Corporate gifts
               </h1>
             </header>
             <br />
@@ -79,7 +79,7 @@ export default function FifthContainer() {
                   padding: "15px 100px 15px 15px",
                 }}
               >
-                Discover the formulation{" "}
+                Learn more about this service{" "}
               </a>
             </div>
           </div>

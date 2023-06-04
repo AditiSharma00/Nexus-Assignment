@@ -10,6 +10,7 @@ import FourthConatiner from "./FrontPage/fourthContainer";
 import FifthContainer from "./FrontPage/FifthContainer";
 import SixthContainer from "./FrontPage/SixthContainer";
 import Quotes from "./FrontPage/Quotes";
+import LargeWithLogoCentered from "./FrontPage/Footer";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <FifthContainer />
       <SixthContainer />
       <Quotes style={{ backgroundColor: "#f7faf1" }} />
+      <LargeWithLogoCentered />
     </div>
   );
 }

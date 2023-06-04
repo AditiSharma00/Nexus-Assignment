@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
   /* Styles for screens with maximum width of 768px */
   .sidebar-text {
-    border: 1px solid white;
     text-align: left;
     margin: auto;
     /* overflow-x: hidden;
@@ -9,6 +8,7 @@
     width: 80%;
   }
 }
+
 .sidebar-text {
   background-color: #252525;
   color: #fff;
@@ -19,4 +19,122 @@
 
 @media (min-width: 1025px) {
   /* Styles for screens with minimum width of 1025px */
+}
+@media (min-width: 1025px) {
+  .FlyingPanel--content {
+    -ms-flex-preferred-size: 66.66667%;
+    flex-basis: 66.66667%;
+  }
+}
+@media (min-width: 1220px) {
+  .FlyingPanel--wrapper {
+    padding: 199px 40px 60px;
+  }
+}
+.FlyingPanel--content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 640px) {
+  .FlyingPanel--title {
+    line-height: 1.7;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+.FlyingPanel--title {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-family: Suisse Medium, sans-serif;
+  color: #333;
+}
+.ShippingModal--row:first-child {
+  margin-top: 30px;
+}
+
+.ShippingModal--row {
+  border-top: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 30px 0;
+}
+.FlyingPanel--closeBtn {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 30px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+button,
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+  .FlyingPanel--wrapper {
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 166px 40px 60px;
+  }
+}
+@media (min-width: 640px) {
+  .FlyingPanel--wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 20vh 34px 60px;
+    width: 50%;
+  }
+}
+.FlyingPanel--wrapper {
+  background-color: #f1f0e8;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 60px 20px;
+  position: fixed;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  width: 100%;
+}
+.ShippingModal--title {
+  font-weight: 600;
 }

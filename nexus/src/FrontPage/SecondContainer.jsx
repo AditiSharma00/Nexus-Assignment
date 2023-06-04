@@ -38,7 +38,7 @@ export default function SecondConatiner() {
         style={{
           backgroundColor: "#f7faf1",
         }}
-        className="imagetext"
+        className="img imagetext"
       >
         <div>
           <figure>
@@ -55,7 +55,7 @@ export default function SecondConatiner() {
             </div>
           </figure>
         </div>
-        <div className="logotext" style={{}}>
+        <div className="loe">
           <div
             style={{
               display: "flex",
@@ -94,7 +94,7 @@ export default function SecondConatiner() {
                   padding: "15px 100px 15px 15px",
                 }}
               >
-                Discover the formulation{" "}
+                Learn more about serums {" "}
               </a>
             </div>
           </div>

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
   font-family: Suisse Regular, sans-serif;
-  background-color: #f7faf1;
+  background-color: #f1faf1;
+  margin: auto;
+  overflow-x: hidden;
 }

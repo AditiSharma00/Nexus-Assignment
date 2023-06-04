@@ -3,6 +3,12 @@
     display: flex;
     flex-direction: row-reverse;
   }
+  .quote {
+    padding: 0px 250px 0px 250px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Zapf Humanist, serif;
+  }
   .logotext {
     display: flex;
     flex-direction: row-reverse;
@@ -12,8 +18,15 @@
   .text {
     width: 60%;
   }
+  .slid {
+    display: flex;
+    flex-direction: row;
+  }
   .logo {
     width: 40%;
+  }
+  .logotext {
+    border: "1px solid red";
   }
 }
 
@@ -24,5 +37,19 @@
   }
   .logo {
     display: none;
+  }
+  .img {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .loe {
+    margin-bottom: 30px;
+  }
+  .slid {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote {
+    font-size: lg;
   }
 }

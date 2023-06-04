@@ -17,55 +17,52 @@ export default function SixthContainer() {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "row",
-        backgroundColor:"#f7faf1",
+        backgroundColor: "#f7faf1",
       }}
+      className="slid"
     >
-    <div className="logotext" style={{}}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
+      <div className="logotext loe" style={{}}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
 
-              textAlign: "left",
-            }}
-          >
-            <header>
-              <h2 style={{ fontWeight: "bold", fontSize: "medium" }}>
-                The Athenaeum
-              </h2>
-              <br />
-              <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
-                A guide to facial serums
-              </h1>
-            </header>
-            <br />
-            <div>
-              <div class="Paragraph-module_set__LZFen Paragraph-module_dark__Qz-sp Paragraph-module_large__-7Gyi HeroBannerContent-module_description__UIt-1">
-                <p style={{ fontWeight: "lighter" }}>
-                  A comprehensive guide to Aesop's plentiful offering of facial
-                  serums. Learn about these skin care formulations designed for
-                  different skin types.
-                </p>
-              </div>
-            </div>
-            <br />
-            <br />
-            <div>
-              <a
-                href="/hk/en/r/parsley-seed-intense-serum/"
-                target="_self"
-                style={{
-                  border: "1px solid gray",
-                  padding: "15px 100px 15px 15px",
-                }}
-              >
-                Discover the formulation{" "}
-              </a>
+            textAlign: "left",
+          }}
+        >
+          <header>
+           
+           
+            <h1 style={{ fontWeight: "lighter", fontSize: "25px" }}>
+              Store Locator
+            </h1>
+          </header>
+          <br />
+          <div>
+            <div class="Paragraph-module_set__LZFen Paragraph-module_dark__Qz-sp Paragraph-module_large__-7Gyi HeroBannerContent-module_description__UIt-1">
+              <p style={{ fontWeight: "lighter" }}>
+                A comprehensive guide to Aesop's plentiful offering of facial
+                serums. Learn about these skin care formulations designed for
+                different skin types.
+              </p>
             </div>
           </div>
+          <br />
+          <br />
+          <div>
+            <a
+              href="/hk/en/r/parsley-seed-intense-serum/"
+              target="_self"
+              style={{
+                border: "1px solid gray",
+                padding: "15px 100px 15px 15px",
+              }}
+            >
+           Find a nearby store{" "}
+            </a>
+          </div>
         </div>
+      </div>
       <Swiper
         slidesPerView={1}
         keyboard={{
